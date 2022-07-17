@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "e7EQlsNfM1y0LjfuBFyKz5IoEg5u1Ju79ILcjfLrQ5zn8cAtSWoGLggkkNWLUHb6AJcEeuiKJjo4WohSV7ORsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kaua\\Desktop\\Senac\\Modulo1\\pi1\\etapafinal\\etapa3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kaua\\.nuget\\packages\\mysqlconnector\\2.1.11\\mysqlconnector.2.1.11.nupkg.sha512",
+    "C:\\Users\\kaua\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

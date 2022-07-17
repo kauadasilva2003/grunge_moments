@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kaua\\Desktop\\Senac\\Modulo1\\pi1\\etapafinal\\etapa3.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kaua\\Desktop\\Senac\\Modulo1\\pi1\\etapafinal\\etapa3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaua\\Desktop\\Senac\\Modulo1\\pi1\\etapafinal\\etapa3.csproj",
+        "projectName": "etapa3",
+        "projectPath": "C:\\Users\\kaua\\Desktop\\Senac\\Modulo1\\pi1\\etapafinal\\etapa3.csproj",
+        "packagesPath": "C:\\Users\\kaua\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaua\\Desktop\\Senac\\Modulo1\\pi1\\etapafinal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kaua\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.417\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

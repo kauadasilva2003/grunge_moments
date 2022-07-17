@@ -1,0 +1,37 @@
+@using Microsoft.AspNetCore.Http;
+@model Usuario
+
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<main>
+
+    
+    <div>  
+    <div>
+        <div class="icone-titulo"><h3 class="titulos">CADASTRO</h3></div>
+    <form class="form-style" action="Cadastro" method="POST">
+    <label class="label-style" asp-for="nome">Nome:</label>    
+    <input class="input-style" asp-for="nome" name="nome" required placeholder="Seu nome">
+    <label class="label-style" asp-for="dataNasc">Data de nascimento:</label>    
+    <input class="input-style" asp-for="dataNasc" name="dataNasc" required placeholder="dd/mm/aa" maxlength="10">
+    <label class="label-style" asp-for="senha">Senha:</label>    
+    <input class="input-style" asp-for="senha" type="password" name="senha" required placeholder="Insira uma senha">
+    <label class="label-style" asp-for="login">Login:</label>    
+    <input class="input-style" asp-for="login" name="login" required placeholder="Insira um login">
+    <input type="submit" value="Cadastrar" class="input-button">
+    </form>
+     
+     <p>@ViewBag.Cadastro</p>
+</div>
+
+    <div>
+        <h3>REALIZE O SEU CADASTRO AGORA!</h3>
+        <p>Tenha acesso aos nossos diversos conteudos e tenho tudo em primeira mão!!</p>
+    </div>
+
+</div>
+
+
+</main>
